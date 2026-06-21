@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	coreerrors "github.com/nucleuskit/nucleus/core/errors"
-	"github.com/nucleuskit/nucleus/core/response"
+	coreerrors "github.com/nucleuskit/core/errors"
+	"github.com/nucleuskit/core/response"
 )
 
 type Server struct {

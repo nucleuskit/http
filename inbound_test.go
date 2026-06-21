@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	nucleuscontext "github.com/nucleuskit/nucleus/core/context"
-	"github.com/nucleuskit/nucleus/core/inbound"
+	nucleuscontext "github.com/nucleuskit/core/context"
+	"github.com/nucleuskit/core/inbound"
 )
 
 func TestNewInboundRequestFromHTTPPreservesRouteBodyAndMetadata(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	caphealth "github.com/nucleuskit/nucleus/cap/health"
-	"github.com/nucleuskit/nucleus/core/response"
+	caphealth "github.com/nucleuskit/cap/health"
+	"github.com/nucleuskit/core/response"
 )
 
 func TestRegisterWellKnownServesNucleusDescriptionSubset(t *testing.T) {

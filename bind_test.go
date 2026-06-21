@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	coreerrors "github.com/nucleuskit/nucleus/core/errors"
+	coreerrors "github.com/nucleuskit/core/errors"
 )
 
 func TestBindQueryParamRequiresValue(t *testing.T) {

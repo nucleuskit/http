@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strings"
 
-	coreerrors "github.com/nucleuskit/nucleus/core/errors"
-	"github.com/nucleuskit/nucleus/core/response"
+	coreerrors "github.com/nucleuskit/core/errors"
+	"github.com/nucleuskit/core/response"
 )
 
 func MaxBytes(limit int64) Middleware {

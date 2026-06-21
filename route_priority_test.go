@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	capsentinel "github.com/nucleuskit/nucleus/cap/sentinel"
+	capsentinel "github.com/nucleuskit/cap/sentinel"
 )
 
 func TestRoutePriorityIsClonedAndReadableFromContext(t *testing.T) {

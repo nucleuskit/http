@@ -15,14 +15,14 @@ import (
 	"testing"
 	"time"
 
-	authcap "github.com/nucleuskit/nucleus/cap/auth"
-	logcap "github.com/nucleuskit/nucleus/cap/log"
-	metriccap "github.com/nucleuskit/nucleus/cap/metric"
-	capsentinel "github.com/nucleuskit/nucleus/cap/sentinel"
-	tracecap "github.com/nucleuskit/nucleus/cap/trace"
-	nucleuscontext "github.com/nucleuskit/nucleus/core/context"
-	coreerrors "github.com/nucleuskit/nucleus/core/errors"
-	"github.com/nucleuskit/nucleus/core/response"
+	authcap "github.com/nucleuskit/cap/auth"
+	logcap "github.com/nucleuskit/cap/log"
+	metriccap "github.com/nucleuskit/cap/metric"
+	capsentinel "github.com/nucleuskit/cap/sentinel"
+	tracecap "github.com/nucleuskit/cap/trace"
+	nucleuscontext "github.com/nucleuskit/core/context"
+	coreerrors "github.com/nucleuskit/core/errors"
+	"github.com/nucleuskit/core/response"
 )
 
 func TestMiddlewareNilProvidersNoop(t *testing.T) {

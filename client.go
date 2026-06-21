@@ -9,12 +9,12 @@ import (
 	"net/url"
 	"time"
 
-	caphttpclient "github.com/nucleuskit/nucleus/cap/httpclient"
-	logcap "github.com/nucleuskit/nucleus/cap/log"
-	metriccap "github.com/nucleuskit/nucleus/cap/metric"
-	capsentinel "github.com/nucleuskit/nucleus/cap/sentinel"
-	captransport "github.com/nucleuskit/nucleus/cap/transport"
-	coreerrors "github.com/nucleuskit/nucleus/core/errors"
+	caphttpclient "github.com/nucleuskit/cap/httpclient"
+	logcap "github.com/nucleuskit/cap/log"
+	metriccap "github.com/nucleuskit/cap/metric"
+	capsentinel "github.com/nucleuskit/cap/sentinel"
+	captransport "github.com/nucleuskit/cap/transport"
+	coreerrors "github.com/nucleuskit/core/errors"
 )
 
 const (

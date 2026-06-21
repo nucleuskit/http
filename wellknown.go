@@ -3,7 +3,7 @@ package runtimehttp
 import (
 	"net/http"
 
-	caphealth "github.com/nucleuskit/nucleus/cap/health"
+	caphealth "github.com/nucleuskit/cap/health"
 )
 
 const WellKnownPath = "/.well-known/nucleus.json"

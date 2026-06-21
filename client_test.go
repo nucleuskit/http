@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	caphttpclient "github.com/nucleuskit/nucleus/cap/httpclient"
-	capsentinel "github.com/nucleuskit/nucleus/cap/sentinel"
-	captransport "github.com/nucleuskit/nucleus/cap/transport"
-	coreerrors "github.com/nucleuskit/nucleus/core/errors"
+	caphttpclient "github.com/nucleuskit/cap/httpclient"
+	capsentinel "github.com/nucleuskit/cap/sentinel"
+	captransport "github.com/nucleuskit/cap/transport"
+	coreerrors "github.com/nucleuskit/core/errors"
 )
 
 func TestClientSendsRequestAndPropagatesTraceHeader(t *testing.T) {

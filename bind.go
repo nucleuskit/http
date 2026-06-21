@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	coreerrors "github.com/nucleuskit/nucleus/core/errors"
+	coreerrors "github.com/nucleuskit/core/errors"
 )
 
 type RequestDecoder interface {

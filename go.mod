@@ -1,8 +1,8 @@
-module github.com/nucleuskit/nucleus/runtime/http
+module github.com/nucleuskit/http
 
 go 1.26.3
 
 require (
-	github.com/nucleuskit/nucleus/cap v0.0.3
-	github.com/nucleuskit/nucleus/core v0.0.1
+	github.com/nucleuskit/cap v0.1.0-alpha.2
+	github.com/nucleuskit/core v0.1.0-alpha.2
 )
